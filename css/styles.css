@@ -69,7 +69,7 @@ main{
 
 .encriptador{
     width: 60%;
-    margin: 168px 0px 0ox 240px;
+    margin: 168px 0px 0px 140px;
     background: transparent;
 }
 
@@ -105,7 +105,7 @@ main{
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    opacity: 0,8;
+    opacity: 0.8;
     color: var(--Medium-Gray);
 }
 
@@ -137,7 +137,7 @@ main{
 }
 .btn-encriptar:active{
     box-shadow: inset 2px 2px 4px var(--Font),
-    inset -3 -4px 8px var(--Dark-Blue);
+    inset -3px -4px 8px var(--Dark-Blue);
     color: var(--White-Blue);
 }
 
@@ -162,7 +162,7 @@ main{
 .btn-copiar:active,
 .btn-desencriptar:active{
     box-shadow: inset 2px 2px 4px var(--Dark-Blue),
-    inset -3 -4px 8px var(--Font);
+    inset -3px -4px 8px var(--Font);
     color: var(--Medium-Blue);
 }
 
@@ -272,7 +272,7 @@ footer{
 
 .linked:hover{
     color: var(--Font);
-    opacity: 0,08;
+    opacity: 0.08;
 }
 
 .git:hover{
@@ -300,13 +300,13 @@ Media
         width: 100%;
     }
 
-    .encriptador.contenedor{
+    .encriptador-contenedor{
         display: flex;
         align-items: center;
         position: inherit;
     }
 
-    .encriptador.aviso{
+    .encriptador-aviso{
         position: inherit;
         margin: 15px;
     }
@@ -335,14 +335,14 @@ Media
     }
 
     .btn-copiar{
-        position: absolute;
+        position: inherit;
         width: 100%;
     }
 
     .evaluar{
         width: 100%;
         height: 210px;
-        padding: 10;
+        padding: 10px;
     }
 }
 
